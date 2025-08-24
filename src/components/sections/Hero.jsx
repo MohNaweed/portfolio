@@ -43,7 +43,7 @@ const Hero = () => {
       }}>
           <div className="relative">
             <div className="absolute -inset-1.5 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full blur-xl opacity-75 animate-pulse"></div>
-            <img className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-card" alt="Replace with Naweed photo" src="https://horizons-cdn.hostinger.com/3adf10b4-9830-475e-873a-1704004f9a60/a57i9335-kCK65.jpg" />
+            <img className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-card" alt="Replace with Naweed photo" src="/public/profilepic.jpg" />
           </div>
         </motion.div>
         

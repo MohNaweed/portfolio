@@ -156,7 +156,7 @@ export const skillStories = [
 export const achievements = {
   metrics: [
     { value: 7, suffix: "+", label: "Years Experience" },
-    { value: 20, suffix: "+", label: "Projects Delivered" },
+    { value: 40, suffix: "+", label: "Projects Delivered" },
     { value: 5, suffix: "+", label: "Countries Served" },
     { value: 3, suffix: "", label: "Major Platforms Launched" }
   ]
@@ -199,7 +199,6 @@ export const languages = [
   { language: "Dari", proficiency: "Native" },
   { language: "Pashto", proficiency: "Fluent" },
   { language: "English", proficiency: "Fluent" },
-  { language: "Persian", proficiency: "Fluent" }
 ];
 
 export const faqs = [
