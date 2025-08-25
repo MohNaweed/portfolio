@@ -15,7 +15,6 @@ import BackToTop from '@/components/layout/BackToTop';
 import Hero from '@/components/sections/Hero';
 import Summary from '@/components/sections/Summary';
 import Skills from '@/components/sections/Skills';
-import CoreSkills from '@/components/sections/CoreSkills';
 import Experience from '@/components/sections/Experience';
 import Portfolio from '@/components/sections/Portfolio';
 import SkillStories from '@/components/sections/SkillStories';
