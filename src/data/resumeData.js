@@ -38,18 +38,22 @@ export const hero = {
 };
 
 export const skills = {
-  technical: [
-    "Enterprise Architecture",
-    "Cloud Solutions (AWS, Azure)",
-    "Fintech & Payment Systems",
-    "E-commerce Platforms",
-    "Blockchain & Web3",
-    "System Design & Scalability",
-    "DevOps & CI/CD Pipelines",
-    "API Design (REST, GraphQL)",
-    "Database Management (SQL, NoSQL)",
-    "Cybersecurity & Compliance"
-  ],
+  technical:[
+  "Architecture & Systems (Enterprise Architecture, System Design & Scalability, DevOps & CI/CD, Jenkins, Kubernetes, Docker)",
+  "Backend Development (Fintech & Payment Systems, E-commerce Platforms)",
+  "Backend Frameworks (Laravel, Django, NodeJS, SpringBot, FastAPI)",
+  "Database Management (SQL & NoSQL: Postgres, MySQL, MongoDB, Redis)",
+  "Frontend Frameworks (React JS, Next JS, VueJS, jQuery)",
+  "UI Libraries (Ant Design, Material UI, TailwindCSS, Bootstrap, Sass)",
+  "State Management (Redux, Redux Toolkit, Zustand, Tanstack Query, SWR)",
+  "Mobile & Cross-Platform (React Native, Flutter, Unity",
+  "Cloud Solutions (Firebase, AWS, Azure)",
+  // "AWS Services (S3, CloudFront, CloudFormation, IAM, SES, EC2, Route 53)",
+  "CMS & Platforms (WordPress, Strapi, Shopify)",
+  "Design & Prototyping (Adobe XD, Photoshop, Illustrator, Figma)",
+  "Microsoft Power Platform (Power Apps, Power Automate, Power BI, Dataverse, SharePoint Integration)"
+],
+
   management: [
     "Strategic Technology Roadmaps",
     "Agile & Scrum Leadership",
@@ -60,89 +64,182 @@ export const skills = {
     "Risk Assessment & Mitigation",
     "Talent Mentorship & Growth",
     "International Partnership Dev.",
-    "Oversight of Branding/Video Teams"
+    "Oversight of Branding/Video Teams",
+    "Technical Architecture",
+    "Product Strategy"
   ]
 };
 
 export const experience = [
   {
     title: "Chief Executive Officer",
-    company: "TechVenture Afghanistan",
-    period: "2020 - Present",
+    company: "Park Telecom Technology",
+    period: "May 2023 – Present",
     highlights: [
-      "Led the company to a 200% revenue increase by pioneering new fintech and e-commerce services.",
-      "Architected and deployed a scalable cloud infrastructure on AWS, enhancing platform reliability to 99.9% uptime.",
-      "Managed cross-functional teams, including engineering, marketing (branding/video), and operations, to launch 3 major platforms.",
-      "Secured strategic partnerships with international organizations to expand service offerings across 5+ countries."
+      "Delivered 20+ projects including websites, platforms, mobile apps, digital marketing campaigns, and event management.",
+      "Increased company revenue by 200% by launching innovative fintech and e-commerce services.",
+      "Architected and deployed scalable AWS cloud infrastructure, achieving 99.9% uptime.",
+      "Managed cross-functional teams (software, marketing, operations, events) to successfully launch 3 major platforms.",
+      "Forged strategic partnerships with international organizations, expanding services into 5+ countries."
     ]
   },
   {
-    title: "Senior Technology Consultant",
-    company: "Innovate Solutions",
-    period: "2018 - 2020",
+    title: "Full Stack Software Developer, DevOps Engineer & Project Manager",
+    company: "UmbelGroup (former Insider Design) — Australia",
+    period: "Aug 2022 – May 2023",
     highlights: [
-      "Advised 10+ startups on technology strategy, from MVP development to scalable architecture.",
-      "Implemented agile methodologies that reduced time-to-market for client projects by an average of 30%.",
-      "Specialized in digital payment gateway integration and e-commerce security protocols."
+      "Led development of UmbelGroup, UmbelStock, and UmbelMarket platforms.",
+      "Planned, researched, designed, implemented, and managed full project lifecycles.",
+      "Deployed, hosted, and managed systems on servers ensuring reliability and scalability."
     ]
   },
   {
-    title: "Full-Stack Software Engineer",
-    company: "Digital Creations",
-    period: "2016 - 2018",
+    title: "Mobile App Developer",
+    company: "Saifi Group",
+    period: "Oct 2022 – May 2023 (Part-time)",
     highlights: [
-      "Developed and maintained full-stack web applications for clients in retail and finance sectors.",
-      "Contributed to a 40% performance improvement on a major e-commerce platform by optimizing database queries and backend logic.",
-      "Collaborated in a team environment to design and implement new features based on user feedback."
+      "Built a cross-platform Coin Lottery Application with smooth UI and performance.",
+      "Developed and tested Coin Lottery API and CMS web-based admin system.",
+      "Ensured app reliability by diagnosing bugs, optimizing performance, and writing automated tests."
+    ]
+  },
+  {
+    title: "Full Stack Software Developer & Project Manager",
+    company: "Smart Friqi",
+    period: "Jan 2022 – Aug 2022",
+    highlights: [
+      "Gathered requirements, designed database structures, and led development lifecycle.",
+      "Planned project blueprints, allocated resources, and supervised team milestones.",
+      "Oversaw testing, evaluation, troubleshooting, and deployment of multiple projects."
+    ]
+  },
+  {
+    title: "Software Developer",
+    company: "Bayat Power Foundation",
+    period: "Sep 2020 – Aug 2021",
+    highlights: [
+      "Developed Vehicle, Driver, and Fuel Management System for operational efficiency.",
+      "Hosted system on Linux server via SSH and trained development team.",
+      "Prepared proposals, reports, and conducted user training for system adoption."
+    ]
+  },
+  {
+    title: "Software Developer",
+    company: "MDout — California, USA",
+    period: "Jul 2020 – Sep 2020",
+    highlights: [
+      "Developed and integrated chatbot applications using Botkit for MDout platform.",
+      "Configured AWS server for deployment, testing, and chatbot integrations.",
+      "Collaborated with the team to ensure smooth installation and maintenance."
+    ]
+  },
+  {
+    title: "IT Manager",
+    company: "Arman Star",
+    period: "Jan 2020 – Jun 2020",
+    highlights: [
+      "Designed, developed, and maintained company website and database systems.",
+      "Managed IT budgets, policies, and best practices for efficient operations.",
+      "Led IT team training, performance improvement, and system upgrades."
+    ]
+  },
+  {
+    title: "Full Stack Web Developer",
+    company: "Elitech",
+    period: "Jul 2019 – Dec 2019",
+    highlights: [
+      "Built and optimized secure websites for evolving business needs.",
+      "Provided ongoing support, maintenance, and performance audits.",
+      "Collaborated with team members on design, coding, and application scripting."
     ]
   }
 ];
+
 
 export const portfolio = {
   highlights: [
     {
       title: "Ersal Afghanistan",
-      description: "A groundbreaking logistics platform that modernized supply chain management across the nation.",
-      image: "Modern logistics dashboard with delivery tracking"
+      description: "Top-ups, special gifts, aid packages, and daily gifts mobile application.",
+      image: "https://cv.parktech.af/default.webp",
+      url: "https://ersalapp.com"
     },
-    {
-      title: "OwePay",
-      description: "An inclusive fintech solution bringing secure digital payments to thousands of new users.",
-      image: "Mobile payment app interface with transaction history"
-    },
-    {
-      title: "Mahbazar",
-      description: "A bustling e-commerce marketplace that empowers local artisans and businesses to thrive online.",
-      image: "E-commerce platform with product listings and shopping cart"
-    }
-  ],
-  projects: [
     {
       title: "Ersal Afghanistan",
-      description: "Nationwide logistics and delivery platform.",
-      image: "Logistics network map of Afghanistan"
+      description: "Top-ups, special gifts, aid packages, and daily gifts mobile application.",
+      image: "https://cv.parktech.af/default.webp",
+      url: "https://ersalapp.com"
     },
-    {
-      title: "OwePay",
-      description: "Secure digital payment and fintech solution.",
-      image: "Close-up of a secure payment transaction on a phone"
-    },
-    {
-      title: "Mahbazar",
-      description: "E-commerce marketplace for local businesses.",
-      image: "Vibrant online marketplace showcasing local products"
-    },
-    {
-      title: "AidChain Afghanistan",
-      description: "Transparent humanitarian aid distribution via blockchain.",
-      image: "Diagram of a transparent blockchain transaction"
-    },
-    {
-      title: "AiMedia.af",
-      description: "AI-powered content creation and news aggregation.",
-      image: "Artificial intelligence data visualization"
-    }
-  ]
+  ],
+  projects:[
+  {
+    title: "Ersal Afghanistan",
+    description: "Top-ups, special gifts, aid packages, and daily gifts mobile application.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://ersalapp.com"
+  },
+  {
+    title: "Hareer Real Estate Platform",
+    description: "Property listings, rentals, and management portal.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://demo.hareerliving.com"
+  },
+  {
+    title: "Aries Corporate Housing",
+    description: "Corporate housing rentals and booking platform.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://ariescorporatehousing.com"
+  },
+  {
+    title: "Cashlink",
+    description: "Digital payments and wallet services in Afghanistan.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://cashlink.af"
+  },
+  {
+    title: "Afghanistan International Expo Center",
+    description: "Official expo center website and event hub.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://afghanexpo.center"
+  },
+  {
+    title: "The Mantu Restaurant",
+    description: "Restaurant website showcasing Afghan cuisine and menu.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://themantu.parktech.af"
+  },
+  {
+    title: "Afghan Connect Medical",
+    description: "Healthcare and medical services information portal.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://afghanconnect.af"
+  },
+  {
+    title: "Park Star Hotel",
+    description: "Hotel and hospitality website for Park Star Hotel.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://parkstarhotel.af"
+  },
+  {
+    title: "Western Internet Provider",
+    description: "ISP landing site for Western Internet Provider.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://western.parktech.af"
+  },
+  {
+    title: "Park Telecom Technology",
+    description: "Corporate site for Park Telecom Technology.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://parktech.af"
+  },
+  {
+    title: "Qarmal",
+    description: "E-commerce and services platform.",
+    image: "https://cv.parktech.af/default.webp",
+    url: "https://qarmal.com"
+  }
+  ],
+
 };
 
 export const skillStories = [
@@ -182,17 +279,26 @@ export const education = [
 
 export const certifications = [
   {
-    title: "Mastering QuickBooks Online",
+    title: "TOEFL Score 107",
+    source: "ETS (2023)"
+  },
+  {
+    title: "Programming, Data Structure and Algorithm Courses",
     source: "Udemy"
   },
   {
-    title: "Spring Boot & JPA Database Integration",
-    source: "In Progress"
+    title: "One Year Certification in Faculty Network Administration",
+    source: "Kabul University"
   },
   {
-    title: "Blockchain & Web3 Research - AidChain Afghanistan",
+    title: "CCNA Certification",
+    source: "ITCK (IT Center of Kabul University)"
+  },
+  {
+    title: "Blockchain & Web3 Research - Digital Identity Afghanistan",
     source: "Master’s Thesis"
-  }
+  },
+  
 ];
 
 export const languages = [

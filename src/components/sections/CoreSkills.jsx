@@ -4,9 +4,20 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function Skills() {
   const technicalSkills = [
-    'JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'PostgreSQL',
-    'MongoDB', 'AWS', 'Docker', 'Kubernetes', 'GraphQL', 'REST APIs',
-    'Git', 'CI/CD', 'Microservices', 'System Design'
+    "JavaScript, Python, PHP, Dart, Java",
+  "Postgres, MySQL, MongoDB, Redis",
+  "Laravel, Django, NodeJS",
+  "React Native, Flutter, Unity",
+  "RestAPI, GraphQL",
+  "React JS, Next JS, VueJS, jQuery",
+  "Redux, Redux-toolkit, Zustand, Tanstack Query, SWR",
+  "Wordpress, Strapi, Shopify",
+  "Sass, Ant Design, Material UI, TailwindCss, Bootstrap",
+  "Git - Github, Docker - Dockerhub, Kubernetes, Jenkins",
+  "Apache2, Nginx web Services",
+  "Adobe (XD, Photoshop, Illustrator), Figma",
+  "Firebase, AWS (S3, CloudFront, Cloud Formation, IAM, SES, EC2, Route 53, ...)",
+  "Power Apps, Power Automate, Power BI, Dataverse, Microsoft Flow, SharePoint Integration"
   ];
 
   const leadershipSkills = [

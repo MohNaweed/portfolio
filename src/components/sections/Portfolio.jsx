@@ -29,7 +29,7 @@ const PortfolioCarousel = ({ highlights }) => {
           <img 
             className="w-full h-full object-cover"
             alt={highlights[index].title}
-           src="https://images.unsplash.com/photo-1702995598997-3f9ab7c2a149" />
+           src={highlights[index].image} />
           <div className="absolute inset-0 bg-black/50 flex flex-col justify-end p-8">
             <h3 className="text-3xl font-bold text-white mb-2">{highlights[index].title}</h3>
             <p className="text-white/80 mb-4">{highlights[index].description}</p>
@@ -37,7 +37,8 @@ const PortfolioCarousel = ({ highlights }) => {
               variant="secondary"
               size="sm"
               className="w-fit"
-              onClick={() => toast({ title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀" })}
+               onClick={() => window.open(highlights[index], "_blank")}
+              // onClick={() => toast({ title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀" })}
             >
               <ExternalLink className="w-4 h-4 mr-2" /> View Highlight
             </Button>
@@ -80,7 +81,7 @@ const ProjectCard = ({ project, index }) => {
         <img 
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           alt={project.title}
-         src="https://images.unsplash.com/photo-1595872018818-97555653a011" />
+         src={project.image} />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2">{project.title}</h3>
@@ -88,7 +89,8 @@ const ProjectCard = ({ project, index }) => {
         <Button
           variant="outline"
           size="sm"
-          onClick={() => toast({ title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀" })}
+           onClick={() => window.open(project.url, "_blank")}
+          // onClick={() => toast({ title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀" })}
         >
           <ExternalLink className="w-4 h-4 mr-2" /> View Project
         </Button>

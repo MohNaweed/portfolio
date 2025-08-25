@@ -119,7 +119,7 @@ function App() {
           <SectionWrapper id="hero"><Hero /></SectionWrapper>
           <SectionWrapper id="summary"><Summary /></SectionWrapper>
           <SectionWrapper id="skills"><Skills /></SectionWrapper>
-          <SectionWrapper id="core-skills"><CoreSkills /></SectionWrapper>
+          {/* <SectionWrapper id="core-skills"><CoreSkills /></SectionWrapper> */}
           <SectionWrapper id="experience"><Experience /></SectionWrapper>
           <SectionWrapper id="portfolio"><Portfolio /></SectionWrapper>
           <SectionWrapper id="skill-stories"><SkillStories /></SectionWrapper>
@@ -127,7 +127,7 @@ function App() {
           <SectionWrapper id="education"><Education /></SectionWrapper>
           <SectionWrapper id="certifications"><Certifications /></SectionWrapper>
           <SectionWrapper id="languages"><Languages /></SectionWrapper>
-          <SectionWrapper id="faqs"><Faqs /></SectionWrapper>
+          {/* <SectionWrapper id="faqs"><Faqs /></SectionWrapper> */}
           <SectionWrapper id="contact"><Contact copyToClipboard={copyToClipboard} copiedField={copiedField} /></SectionWrapper>
         </main>
         

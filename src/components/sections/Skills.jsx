@@ -3,8 +3,8 @@ import React from 'react';
 import { Code, Users, CheckCircle } from 'lucide-react';
 import { skills } from '@/data/resumeData';
 
-const SkillCategory = ({ title, icon, skillList, colorClass }) => (
-  <div className="bg-card p-8 rounded-lg shadow-md border">
+const SkillCategory = ({ title, icon, skillList, colorClass, className = "" }) => (
+  <div className={`bg-card p-8 rounded-lg shadow-md border ${className}`}>
     <div className={`flex items-center mb-6 text-${colorClass}`}>
       {icon}
       <h3 className="text-2xl font-bold ml-3">{title}</h3>
@@ -20,22 +20,25 @@ const SkillCategory = ({ title, icon, skillList, colorClass }) => (
   </div>
 );
 
+
 const Skills = () => {
   return (
     <div>
       <h2 className="section-title"><span>Core Competencies</span></h2>
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         <SkillCategory
           title="Technical Skills"
           icon={<Code className="w-8 h-8" />}
           skillList={skills.technical}
           colorClass="primary"
+           className="md:col-span-2"
         />
         <SkillCategory
           title="Leadership & Management"
           icon={<Users className="w-8 h-8" />}
           skillList={skills.management}
           colorClass="cyan-500"
+           className="md:col-span-1"
         />
       </div>
     </div>
