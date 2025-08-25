@@ -77,7 +77,7 @@ const ProjectCard = ({ project, index }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      <div className="overflow-hidden h-48">
+      <div className="overflow-hidden">
         <img 
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           alt={project.title}
