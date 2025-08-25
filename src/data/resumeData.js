@@ -30,11 +30,13 @@ export const sections = [
 ];
 
 export const hero = {
-  headlines: [
-    "Fintech & E-commerce Leadership",
-    "Cloud & Enterprise Architecture",
-    "Blockchain for Public Good",
-  ]
+headlines: [
+  "Full-Stack Software Engineering",
+  "Cloud Infrastructure & System Architecture",
+  "Media, Events & Branding Leadership",
+  "Digital Marketing & Growth Strategies"
+]
+
 };
 
 export const skills = {
@@ -243,7 +245,7 @@ export const portfolio = {
 };
 
 export const skillStories = [
-  "I design and lead high-reliability fintech systems that prioritize security, compliance, and a seamless experience for end-use customers.",
+  "I design and lead high-reliability systems that prioritize security, compliance, and a seamless experience for end-use customers.",
   "I align engineering roadmaps with business strategy, converting complex requirements into simple, scalable releases.",
   "I build partnerships across borders to deliver cost-effective, resilient solutions for emerging markets.",
   "I implement policies that protect information while enabling collaboration and speed.",
